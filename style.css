@@ -4,6 +4,8 @@
     line-height: 0px;
     color: aquamarine;
     border-radius: 25px;
+    cursor: crosshair;
 }
+
 
 body{background-color: black; color: white;}
