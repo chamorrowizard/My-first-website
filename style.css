@@ -3,4 +3,7 @@
     height: 50px;
     line-height: 0px;
     color: aquamarine;
+    border-radius: 25px;
 }
+
+body{background-color: black; color: white;}
