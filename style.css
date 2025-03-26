@@ -5,7 +5,33 @@
     color: aquamarine;
     border-radius: 25px;
     cursor: crosshair;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 800;
+    font-style: normal;
 }
 
 
-body{background-color: black; color: white;}
+body{background-color: black; color: white; font-size: 24px;}
+
+/* Below was copied from gradientbuttons.colorion.co */
+.btn-grad {background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+/* Above was copied from gradientbuttons.colorion.co */
+
