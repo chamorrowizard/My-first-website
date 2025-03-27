@@ -1,6 +1,5 @@
 .h-button {
-    background-color: purple;
-    height: 50px;
+    background-image: linear-gradient(to right, #01090e 0%, #4e4376 51%, #2b5876 100%);
     line-height: 0px;
     color: aquamarine;
     border-radius: 25px;
@@ -8,10 +7,23 @@
     font-family: "Press Start 2P", system-ui;
     font-weight: 800;
     font-style: normal;
+    box-shadow: 0 0 10px #eee;
+    box-sizing: content-box; width: 700px; 
+
+}
+
+.h-button:hover {
+  background-color: #eee;
+  color: purple;
 }
 
 
 body{background-color: black; color: white; font-size: 24px;}
+
+.h-button h2 a{
+  text-decoration: none;
+  color: aquamarine;
+}
 
 /* Below was copied from gradientbuttons.colorion.co */
 .btn-grad {background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
