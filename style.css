@@ -36,7 +36,7 @@ body{background-color: black; color: white; font-size: 24px;}
   width:75px;
   justify-content: flex-start;
 }
-.social-logo img,a{
+.social-logo img{
   width: 50px;
   height: auto;
   border: solid 1px aquamarine;
